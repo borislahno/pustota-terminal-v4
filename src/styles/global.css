@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url("/fonts/Minecraft.ttf") format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html {
+    @apply h-full font-VT323 scroll-smooth;
+  }
+
+  body {
+    @apply h-full min-w-[375px] font-VT323 antialiased scroll-smooth;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
